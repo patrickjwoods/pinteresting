@@ -10,9 +10,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.1.0.rc2'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-gem 'spring',        group: :development
+gem 'spring', group: :development
 
 group :development, :test do
 	gem 'sqlite3'
@@ -23,4 +24,4 @@ group :production do
 	gem 'rails_12factor'
 end
 
-gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'sdoc', '~> 0.4.0', group: :doc
